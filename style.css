@@ -1,18 +1,23 @@
 .cim {
     height: 80vh;
-    background: url(cimkepe);
+    background: url(cimkep.png);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color:green;
 }
 .cim_tart h1 {
     font-size: 3.5rem;
-    color: white;
+    color: blue;
     margin-bottom: 10px;
+    border:solid blue;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .menu {
     background:green;

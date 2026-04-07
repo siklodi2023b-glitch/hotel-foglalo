@@ -14,8 +14,18 @@
     color: white;
     margin-bottom: 10px;
 }
-
-
+.menu {
+    background:green;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 500; 
+}
 
 
 

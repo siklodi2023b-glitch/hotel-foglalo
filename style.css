@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    color: darkblue;
+    background-color: white;
+}
+
 .cim {
     height: 80vh;
     background: url(cimkep.png);
@@ -9,9 +21,10 @@
     text-align: center;
     color:green;
 }
+
 .cim_tart h1 {
     font-size: 3.5rem;
-    color: blue;
+    color: darkblue;
     margin-bottom: 10px;
     border:solid blue;
     border-radius: 10px;
@@ -19,17 +32,77 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
 .menu {
-    background:green;
+    background:darkblue;
     display: flex;
     justify-content: center;
     position: sticky;
 }
+
 .menu a {
     color: white;
     text-decoration: none;
     padding: 15px 25px;
     font-weight: 500; 
+}
+
+.tema {
+    padding: 80px 0;
+}
+
+.doboz {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.kicsicim {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.vonal {
+    width: 80px;
+    height: 3px;
+    background: cyan;
+    margin: 10px auto;
+}
+
+.reklamszoveg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.tulajdonsagok {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tulajdonsagok li {
+    margin-bottom: 10px;
+}
+
+.tulajdonsagok span {
+    color: darkblue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.reklam {
+    background: #f9f6f2;
+    padding: 40px;
+    border-left: 5px solid cyan;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.arak {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 15px 0;
+    color: blue;
 }
 
 

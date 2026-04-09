@@ -123,13 +123,37 @@ h1, h2, h3 {
     color: black;
 }
 
+.fomenu.fomenu:kepek{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 
-
-
-
-
-
+.galeria img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#kepekcim{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer {
+    background: darkblue;
+    color:white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
 
 
 

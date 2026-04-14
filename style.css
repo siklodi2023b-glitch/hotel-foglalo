@@ -135,8 +135,6 @@ h1, h2, h3 {
     justify-content: center;
     gap: 20px;
 }
-
-
 .galeria img {
     width: 300px;
     height: 200px;
@@ -164,15 +162,30 @@ footer {
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
+.terkep_menu{
+    display: flex;          
+    gap: 20px;              
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+.oszlopok{
+    flex: 1;                
+    min-width: 250px;       
+    background-color:lightgrey;
+    padding: 15px;
+    border-radius: 10px;       
+}
+.oszlopok h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.oszlopok ul {
+    padding-left: 20px;
+}
+.oszlopok:hover {
+    background-color: gray   
+}
 
 
 

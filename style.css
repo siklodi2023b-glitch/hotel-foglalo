@@ -198,15 +198,57 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  background-color: lightgray;
 }
 .foglalo_nagy {
-  border: 1px solid black;
+  margin: auto;
   padding: 10px;
 }
 .foglalo_nagy img {
-  width: 100%;
+  width: 90%;
+  height: 67%;
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
 }
+.foglalo_doboz{
+        border: 2px solid gray;
+        border-radius: 30px;
+        background-color: lightgray;
+        padding: 5px;
+        width: 90%;
+        margin: auto;
+        
+}
+.foglalo_doboz ul {
+        margin-left: 10%;
+        
+}
+.gombok {
+    display: inline-block;
+    background: darkblue;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 15px;
+    
+}
+
+.gombok:hover {
+    background: lightblue;
+    color: black;
+} 
+
+.foglalo_doboz p {
+    text-align: right;
+    margin-right: 25px ;
+} 
+        
+
 
 
 

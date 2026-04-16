@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel foglalás</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+
+  <div id="szamlalo">
+    Foglalásból hátralévő idő: <span id="timer">05:00</span>
+  </div>
+
+  <div id="foglalas_doboz">
+    <h1>Egyszerű szoba</h1>
+    <h2>Válassz dátumot:</h2>
+  
+    <input type="text" id="datum" placeholder="Kattints ide">
+
+    <br><br>
+
+    <button id="foglalas" class="gombok">Lefoglalás</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <script>
+    let ido = 300;
+
+    const timerElem = document.getElementById("timer");
+
+    const visszaszamlalo = setInterval(() => {
+      let perc = Math.floor(ido / 60);
+      let mp = ido % 60;
+
+      perc = perc < 10 ? "0" + perc : perc;
+      mp = mp < 10 ? "0" + mp : mp;
+
+      timerElem.textContent = perc + ":" + mp;
+
+      ido--;
+
+      if (ido < 0) {
+        clearInterval(visszaszamlalo);
+        alert("Lejárt az idő!");
+        window.location.href = "index.html";
+      }
+    }, 1000);
+
+    flatpickr("#datum", {
+      dateFormat: "Y-m-d"
+    });
+
+    document.getElementById("foglalas").addEventListener("click", function() {
+  const datum = document.getElementById("datum").value;
+
+  if (datum === "") {
+    console.log("Nincs kiválasztva dátum!");
+    alert("Nincs kiválasztva dátum");
+  } else {
+    console.log("Lefoglalva erre a dátumra: " + datum);
+    alert("Sikeres foglalás!");
+    clearInterval(visszaszamlalo);
+    window.location.href = "index.html";
+    
+  }
+});
+  </script>
+
+</body>
+</html>

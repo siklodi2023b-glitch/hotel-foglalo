@@ -37,7 +37,6 @@ body {
     background:rgb(68, 68, 142);
     display: flex;
     justify-content: center;
-    position: sticky;
     border-bottom: solid orange 2px;
 }
 
@@ -96,7 +95,7 @@ body {
     background: #f9f6f2;
     padding: 40px;
     border-left: 6px solid rgb(68, 68, 142);
-    box-shadow: 0 10px 30px black;
+    box-shadow: 0 10px 30px gray;
     border-top:3px solid rgb(68, 68, 142) ;
     border-bottom: 3px solid rgb(68, 68, 142) ;
     border-right: 3px solid rgb(68, 68, 142) ;
@@ -266,7 +265,17 @@ footer {
     height: 200px;
 }
 
-
+#szamlalo {
+    text-align: center;
+}
+#foglalas_doboz {
+    border: 2px solid gray;
+        border-radius: 30px;
+        background-color: lightgray;
+        padding: 5px;
+        width: 90%;
+        margin: auto;
+}
 
 
 

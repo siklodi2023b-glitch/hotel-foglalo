@@ -161,6 +161,7 @@ footer {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 .classh1{
     text-align: center;
@@ -253,14 +254,17 @@ footer {
     margin-right: 25px ;
 } 
         
-
-
-
-
-
-
-
-
+.cim2 {
+    height: 80vh;
+    background: url(szazalek.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
 
 
 

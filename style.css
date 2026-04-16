@@ -231,7 +231,7 @@ footer {
 }
 .gombok {
     display: inline-block;
-    background: darkblue;
+    background: orange;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -249,7 +249,7 @@ footer {
 } 
 
 .foglalo_doboz p {
-    text-align: right;
+    text-align: left;
     margin-right: 25px ;
 } 
         
@@ -275,6 +275,14 @@ footer {
         padding: 5px;
         width: 90%;
         margin: auto;
+}
+.foglalo_doboz p{
+    text-align: right;
+}
+.legysziutolsoclass{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
 }
 
 

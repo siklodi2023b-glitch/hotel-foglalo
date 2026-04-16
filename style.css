@@ -6,8 +6,8 @@
 
 body {
     line-height: 1.6;
-    color: darkblue;
-    background-color: white;
+    color:rgb(68, 68, 142) ;
+    background-color: rgb(233, 228, 218);
 }
 
 .cim {
@@ -24,9 +24,9 @@ body {
 
 .cim_tart h1 {
     font-size: 3.5rem;
-    color: darkblue;
+    color:rgb(68, 68, 142) ;
     margin-bottom: 10px;
-    border:solid blue;
+    border:solid rgb(68, 68, 142);
     border-radius: 10px;
     background-color: white;
     padding-left: 5px;
@@ -34,10 +34,11 @@ body {
 }
 
 .menu {
-    background:darkblue;
+    background:rgb(68, 68, 142);
     display: flex;
     justify-content: center;
     position: sticky;
+    border-bottom: solid orange 2px;
 }
 
 .menu a {
@@ -65,7 +66,7 @@ body {
 .vonal {
     width: 80px;
     height: 3px;
-    background: cyan;
+    background: green;
     margin: 10px auto;
 }
 
@@ -94,23 +95,26 @@ body {
 .reklam {
     background: #f9f6f2;
     padding: 40px;
-    border-left: 5px solid cyan;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-left: 6px solid rgb(68, 68, 142);
+    box-shadow: 0 10px 30px black;
+    border-top:3px solid rgb(68, 68, 142) ;
+    border-bottom: 3px solid rgb(68, 68, 142) ;
+    border-right: 3px solid rgb(68, 68, 142) ;
 }
 
 .arak {
     font-size: 1.3rem;
     font-weight: 600;
     margin: 15px 0;
-    color: blue;
+    color: orange;
 }
 h1, h2, h3 {
     font-size: 30px;
-    color: blue;
+    color:  rgb(68, 68, 142);
 }
 .gomb {
     display: inline-block;
-    background: darkblue;
+    background:orange;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -144,9 +148,10 @@ h1, h2, h3 {
 #kepekcim{
     text-align: center;
     margin-bottom: 20px;
+    color:rgb(68, 68, 142);
 }
 footer {
-    background: darkblue;
+    background:burlywood;
     color:white;
     text-align: center;
     padding: 30px 0;
